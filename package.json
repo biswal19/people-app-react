@@ -1,0 +1,25 @@
+{
+  "name": "react-planet-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://biswal19.github.io/people-app-react",
+  "dependencies": {
+    "@material-ui/core": "^4.10.1",
+    "bootstrap": "^4.5.0",
+    "gh-pages": "^3.0.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "0.9.5",
+    "reactstrap": "^8.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
